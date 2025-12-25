@@ -1,0 +1,634 @@
+{
+  "hotels": [
+    {
+      "name": "هتل آزادی",
+      "city": "تهران",
+      "score": 4.4,
+      "tags": ["لوکس", "مرکز شهر", "مرکز خرید" ,"نزدیک موزه"],
+      "rooms": {
+        "single": {
+          "price_per_night": 2200000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/25"
+        },
+        "double": {
+          "price_per_night": 3500000,
+          "available_from": "1404/09/05",
+          "available_to": "1404/12/20"
+        },
+        "two_single": {
+          "price_per_night": 4100000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/15"
+        },
+        "double_plus_single": {
+          "price_per_night": 5200000,
+          "available_from": "1404/09/10",
+          "available_to": "1404/12/30"
+        }
+      }
+    },
+    {
+      "name": "هتل اسپیناس پالاس",
+      "city": "تهران",
+      "score": 4.8,
+      "tags": ["لوکس", "خانوادگی", "مرکز خرید"],
+      "rooms": {
+        "single": {
+          "price_per_night": 3000000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/28"
+        },
+        "double": {
+          "price_per_night": 4800000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/25"
+        },
+        "two_single": {
+          "price_per_night": 5600000,
+          "available_from": "1404/09/05",
+          "available_to": "1404/12/22"
+        },
+        "double_plus_single": {
+          "price_per_night": 6500000,
+          "available_from": "1404/09/10",
+          "available_to": "1404/12/30"
+        }
+      }
+    },
+    {
+      "name": "هتل عباسی",
+      "city": "اصفهان",
+      "score": 4.9,
+      "tags": ["لوکس", "تاریخی", "نزدیک میدان نقش جهان"],
+      "rooms": {
+        "single": {
+          "price_per_night": 2800000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/20"
+        },
+        "double": {
+          "price_per_night": 4500000,
+          "available_from": "1404/09/05",
+          "available_to": "1404/12/25"
+        },
+        "two_single": {
+          "price_per_night": 5200000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/18"
+        },
+        "double_plus_single": {
+          "price_per_night": 6200000,
+          "available_from": "1404/09/10",
+          "available_to": "1404/12/30"
+        }
+      }
+    },
+    {
+      "name": "هتل جهانگردی",
+      "city": "اصفهان",
+      "score": 3.9,
+      "tags": ["اقتصادی", "گردش"],
+      "rooms": {
+        "single": {
+          "price_per_night": 1500000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/30"
+        },
+        "double": {
+          "price_per_night": 2400000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/25"
+        },
+        "two_single": {
+          "price_per_night": 2800000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/22"
+        },
+        "double_plus_single": {
+          "price_per_night": 3300000,
+          "available_from": "1404/09/10",
+          "available_to": "1404/12/30"
+        }
+      }
+    },
+    {
+      "name": "هتل درویشی",
+      "city": "مشهد",
+      "score": 4.7,
+      "tags": ["لوکس", "نزدیک حرم"],
+      "rooms": {
+        "single": {
+          "price_per_night": 2600000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/30"
+        },
+        "double": {
+          "price_per_night": 4200000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/25"
+        },
+        "two_single": {
+          "price_per_night": 4800000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/22"
+        },
+        "double_plus_single": {
+          "price_per_night": 5600000,
+          "available_from": "1404/09/05",
+          "available_to": "1404/12/30"
+        }
+      }
+    },
+    {
+      "name": "هتل زندیه",
+      "city": "شیراز",
+      "score": 4.5,
+      "tags": ["سنتی", "مرکز شهر", "نزدیک آثار تاریخی"],
+      "rooms": {
+        "single": {
+          "price_per_night": 2100000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/30"
+        },
+        "double": {
+          "price_per_night": 3400000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/25"
+        },
+        "two_single": {
+          "price_per_night": 3900000,
+          "available_from": "1404/09/01",
+          "available_to": "1404/12/22"
+        },
+        "double_plus_single": {
+          "price_per_night": 4700000,
+          "available_from": "1404/09/10",
+          "available_to": "1404/12/30"
+        }
+      }
+    }
+  ],
+
+  "flights": [
+        {
+        "id": 101,
+        "airline": "ایران ایر",
+        "from": "تهران",
+        "to": "اصفهان",
+        "date": "1404/09/30",
+        "time": "07:30",
+        "class": "Economy",
+        "price": 2100000,
+        "duration": "1h 05m",
+        "meal": "صبحانه"
+        },
+        {
+        "id": 102,
+        "airline": "ماهان",
+        "from": "تهران",
+        "to": "شیراز",
+        "date": "1404/09/25",
+        "time": "14:10",
+        "class": "Economy",
+        "price": 2600000,
+        "duration": "1h 20m",
+        "meal": null
+        },
+        {
+        "id": 103,
+        "airline": "قشم ایر",
+        "from": "مشهد",
+        "to": "تهران",
+        "date": "1404/10/05",
+        "time": "09:00",
+        "class": "Economy",
+        "price": 2300000,
+        "duration": "1h 30m",
+        "meal": "صبحانه"
+        },
+        {
+        "id": 104,
+        "airline": "زاگرس",
+        "from": "تهران",
+        "to": "مشهد",
+        "date": "1404/10/18",
+        "time": "21:45",
+        "class": "Business",
+        "price": 3900000,
+        "duration": "1h 35m",
+        "meal": "شام"
+        },
+        {
+        "id": 105,
+        "airline": "ایران ایرتور",
+        "from": "تهران",
+        "to": "کیش",
+        "date": "1404/11/02",
+        "time": "11:30",
+        "class": "Economy",
+        "price": 3200000,
+        "duration": "1h 50m",
+        "meal": null
+        },
+        {
+        "id": 106,
+        "airline": "ماهان",
+        "from": "شیراز",
+        "to": "تهران",
+        "date": "1404/11/20",
+        "time": "18:15",
+        "class": "Economy",
+        "price": 2700000,
+        "duration": "1h 25m",
+        "meal": "عصرانه"
+        },
+        {
+        "id": 107,
+        "airline": "کاسپین",
+        "from": "تبریز",
+        "to": "تهران",
+        "date": "1404/12/01",
+        "time": "06:50",
+        "class": "Economy",
+        "price": 2400000,
+        "duration": "1h 10m",
+        "meal": null
+        },
+        {
+        "id": 108,
+        "airline": "ایران ایر",
+        "from": "تهران",
+        "to": "اهواز",
+        "date": "1404/12/10",
+        "time": "16:40",
+        "class": "Economy",
+        "price": 2500000,
+        "duration": "1h 15m",
+        "meal": "عصرانه"
+        },
+        {
+        "id": 109,
+        "airline": "آتا",
+        "from": "تهران",
+        "to": "رشت",
+        "date": "1404/12/18",
+        "time": "08:20",
+        "class": "Economy",
+        "price": 1800000,
+        "duration": "55m",
+        "meal": null
+        },
+        {
+        "id": 110,
+        "airline": "سپهران",
+        "from": "مشهد",
+        "to": "شیراز",
+        "date": "1404/12/27",
+        "time": "19:30",
+        "class": "Business",
+        "price": 4100000,
+        "duration": "2h 00m",
+        "meal": "شام"
+        }
+   ],
+
+
+    "weather": [
+        {
+        "city": "اصفهان",
+        "date": "1404/09/12",
+        "condition": "آفتابی",
+        "temp_day": 30,
+        "temp_night": 18,
+        "rain": "False",
+        "wind": "ملایم"
+        },
+        {
+        "city": "اصفهان",
+        "date": "1404/09/13",
+        "condition": "نیمه ابری",
+        "temp_day": 28,
+        "temp_night": 17,
+        "rain": "False",
+        "wind": "ملایم"
+        },
+        {
+        "city": "تهران",
+        "date": "1404/10/05",
+        "condition": "بارانی",
+        "temp_day": 22,
+        "temp_night": 14,
+        "rain": "True",
+        "wind": "شدید"
+        },
+        {
+        "city": "تهران",
+        "date": "1404/10/06",
+        "condition": "آفتابی",
+        "temp_day": 25,
+        "temp_night": 15,
+        "rain": "False",
+        "wind": "ملایم"
+        },
+        {
+        "city": "مشهد",
+        "date": "1404/11/10",
+        "condition": "نیمه ابری",
+        "temp_day": 27,
+        "temp_night": 16,
+        "rain": "False",
+        "wind": "کم"
+        },
+        {
+        "city": "مشهد",
+        "date": "1404/11/11",
+        "condition": "بارانی",
+        "temp_day": 23,
+        "temp_night": 15,
+        "rain": "True",
+        "wind": "شدید"
+        },
+        {
+        "city": "شیراز",
+        "date": "1404/12/01",
+        "condition": "آفتابی",
+        "temp_day": 33,
+        "temp_night": 21,
+        "rain": "False",
+        "wind": "کم"
+        },
+        {
+        "city": "شیراز",
+        "date": "1404/12/02",
+        "condition": "نیمه ابری",
+        "temp_day": 31,
+        "temp_night": 20,
+        "rain": "False",
+        "wind": "ملایم"
+        },
+        {
+        "city": "کیش",
+        "date": "1404/12/15",
+        "condition": "آفتابی",
+        "temp_day": 35,
+        "temp_night": 27,
+        "rain": "False",
+        "wind": "کم"
+        },
+        {
+        "city": "کیش",
+        "date": "1404/12/16",
+        "condition": "بارانی",
+        "temp_day": 32,
+        "temp_night": 26,
+        "rain": "True",
+        "wind": "ملایم"
+        }
+    ],
+
+    "trains": [
+        {
+            "id": 1,
+            "company": "رجا",
+            "from": "تهران",
+            "to": "اصفهان",
+            "date": "1404/09/30",
+            "departure_time": "06:30",
+            "arrival_time": "14:30",
+            "duration_hours": 8,
+            "class": "۴ تخته",
+            "price": 950000
+        },
+        {
+            "id": 2,
+            "company": "فدک",
+            "from": "تهران",
+            "to": "اصفهان",
+            "date": "1404/09/30",
+            "departure_time": "22:00",
+            "arrival_time": "06:00",
+            "duration_hours": 8,
+            "class": "۵ ستاره",
+            "price": 1350000
+        },
+        {
+            "id": 3,
+            "company": "رجا",
+            "from": "تهران",
+            "to": "شیراز",
+            "date": "1404/10/10",
+            "departure_time": "16:00",
+            "arrival_time": "06:00",
+            "duration_hours": 14,
+            "class": "۴ تخته",
+            "price": 1200000
+        },
+        {
+            "id": 4,
+            "company": "فدک",
+            "from": "تهران",
+            "to": "شیراز",
+            "date": "1404/10/25",
+            "departure_time": "21:30",
+            "arrival_time": "09:30",
+            "duration_hours": 12,
+            "class": "۵ ستاره",
+            "price": 1650000
+        },
+        {
+            "id": 5,
+            "company": "رجا",
+            "from": "تهران",
+            "to": "مشهد",
+            "date": "1404/11/02",
+            "departure_time": "19:00",
+            "arrival_time": "07:00",
+            "duration_hours": 12,
+            "class": "۴ تخته",
+            "price": 1100000
+        },
+        {
+            "id": 6,
+            "company": "نورالرضا",
+            "from": "تهران",
+            "to": "مشهد",
+            "date": "1404/11/18",
+            "departure_time": "08:00",
+            "arrival_time": "20:00",
+            "duration_hours": 12,
+            "class": "۳ ستاره",
+            "price": 950000
+        },
+        {
+            "id": 7,
+            "company": "رجا",
+            "from": "اصفهان",
+            "to": "تهران",
+            "date": "1404/10/05",
+            "departure_time": "17:00",
+            "arrival_time": "07:00",
+            "duration_hours": 14,
+            "class": "۴ تخته",
+            "price": 1250000
+        },
+        {
+            "id": 8,
+            "company": "فدک",
+            "from": "اصفهان",
+            "to": "تهران",
+            "date": "1404/10/05",
+            "departure_time": "20:30",
+            "arrival_time": "08:30",
+            "duration_hours": 12,
+            "class": "۵ ستاره",
+            "price": 1750000
+        },
+        {
+            "id": 9,
+            "company": "رجا",
+            "from": "تهران",
+            "to": "تبریز",
+            "date": "1404/10/15",
+            "departure_time": "07:00",
+            "arrival_time": "15:00",
+            "duration_hours": 8,
+            "class": "۴ تخته",
+            "price": 900000
+        },
+        {
+            "id": 10,
+            "company": "رجا",
+            "from": "تهران",
+            "to": "رشت",
+            "date": "1404/09/28",
+            "departure_time": "05:30",
+            "arrival_time": "11:30",
+            "duration_hours": 6,
+            "class": "۴ تخته",
+            "price": 750000
+        }
+    ],
+    "accomodations": [
+        {
+            "id": 1,
+            "type": "سوئیت",
+            "city": "اصفهان",
+            "area": "مرکز شهر",
+            "from_date": "1404/09/01",
+            "to_date": "1404/10/30",
+            "capacity": 2,
+            "price_per_night": 850000,
+            "distance_to_center_km": 1.2,
+            "near_places": ["میدان نقش جهان", "بازار بزرگ"]
+        },
+        {
+            "id": 2,
+            "type": "اقامتگاه بومگردی",
+            "city": "اصفهان",
+            "area": "محله جلفا",
+            "from_date": "1404/09/10",
+            "to_date": "1404/10/15",
+            "capacity": 4,
+            "price_per_night": 1200000,
+            "distance_to_center_km": 2.0,
+            "near_places": ["کلیسای وانک", "موزه موسیقی"]
+        },
+        {
+            "id": 3,
+            "type": "سوئیت",
+            "city": "شیراز",
+            "area": "نزدیک حافظیه",
+            "from_date": "1404/10/01",
+            "to_date": "1404/10/30",
+            "capacity": 2,
+            "price_per_night": 900000,
+            "distance_to_center_km": 1.0,
+            "near_places": ["حافظیه", "دروازه قرآن"]
+        },
+        {
+            "id": 4,
+            "type": "اقامتگاه بومگردی",
+            "city": "شیراز",
+            "area": "بافت تاریخی",
+            "from_date": "1404/10/15",
+            "to_date": "1404/11/20",
+            "capacity": 4,
+            "price_per_night": 1300000,
+            "distance_to_center_km": 1.5,
+            "near_places": ["مسجد نصیرالملک", "بازار وکیل"]
+        },
+        {
+            "id": 5,
+            "type": "سوئیت",
+            "city": "مشهد",
+            "area": "نزدیک حرم",
+            "from_date": "1404/11/01",
+            "to_date": "1404/11/30",
+            "capacity": 2,
+            "price_per_night": 750000,
+            "distance_to_center_km": 0.8,
+            "near_places": ["حرم امام رضا", "بازار رضا"]
+        },
+        {
+            "id": 6,
+            "type": "اقامتگاه بومگردی",
+            "city": "مشهد",
+            "area": "طرقبه",
+            "from_date": "1404/11/10",
+            "to_date": "1404/12/15",
+            "capacity": 4,
+            "price_per_night": 1100000,
+            "distance_to_center_km": 8.0,
+            "near_places": ["طرقبه", "شاندیز"]
+        },
+        {
+            "id": 7,
+            "type": "سوئیت",
+            "city": "تبریز",
+            "area": "ولیعصر",
+            "from_date": "1404/10/01",
+            "to_date": "1404/10/31",
+            "capacity": 2,
+            "price_per_night": 800000,
+            "distance_to_center_km": 2.3,
+            "near_places": ["ائل گلی", "مرکز خرید لاله پارک"]
+        },
+        {
+            "id": 8,
+            "type": "اقامتگاه بومگردی",
+            "city": "رشت",
+            "area": "بافت قدیم",
+            "from_date": "1404/09/15",
+            "to_date": "1404/10/20",
+            "capacity": 3,
+            "price_per_night": 950000,
+            "distance_to_center_km": 1.7,
+            "near_places": ["میدان شهرداری", "بازار رشت"]
+        },
+        {
+            "id": 9,
+            "type": "سوئیت",
+            "city": "اصفهان",
+            "area": "نزدیک سی و سه پل",
+            "from_date": "1404/12/01",
+            "to_date": "1404/12/29",
+            "capacity": 2,
+            "price_per_night": 900000,
+            "distance_to_center_km": 1.0,
+            "near_places": ["سی و سه پل", "زاینده رود"]
+        },
+        {
+            "id": 10,
+            "type": "اقامتگاه بومگردی",
+            "city": "شیراز",
+            "area": "اطراف تخت جمشید",
+            "from_date": "1404/12/01",
+            "to_date": "1404/12/29",
+            "capacity": 5,
+            "price_per_night": 1500000,
+            "distance_to_center_km": 10.0,
+            "near_places": ["تخت جمشید", "نقش رستم"]
+        }
+    ]
+}
