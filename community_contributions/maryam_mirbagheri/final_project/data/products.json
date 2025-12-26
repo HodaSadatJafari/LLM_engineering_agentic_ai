@@ -1,0 +1,323 @@
+[
+    {
+      "id": "W001",
+      "name": "Oversized Cotton T-Shirt",
+      "description": "A relaxed-fit cotton t-shirt suitable for everyday casual wear.",
+      "price": 19.99,
+      "currency": "USD",
+      "category": "Topwear",
+      "gender": "Women",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "White", "Beige"],
+      "material": "100% Cotton",
+      "season": ["Spring", "Summer"],
+      "style": ["Casual"],
+      "fit": "Oversized",
+      "availability": {
+        "S": 10,
+        "M": 6,
+        "L": 4,
+        "XL": 0
+      },
+      "care_instructions": "Machine wash cold. Do not bleach."
+    },
+    {
+      "id": "W002",
+      "name": "Floral Summer Dress",
+      "description": "A lightweight floral dress perfect for warm weather.",
+      "price": 39.99,
+      "currency": "USD",
+      "category": "Dresses",
+      "gender": "Women",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Red", "Blue"],
+      "material": "Polyester",
+      "season": ["Summer"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "S": 5,
+        "M": 3,
+        "L": 2
+      },
+      "care_instructions": "Hand wash recommended."
+    },
+    {
+      "id": "W003",
+      "name": "High-Waist Denim Jeans",
+      "description": "Classic high-waist jeans with a comfortable fit.",
+      "price": 49.99,
+      "currency": "USD",
+      "category": "Bottomwear",
+      "gender": "Women",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Blue"],
+      "material": "Denim",
+      "season": ["All"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "S": 8,
+        "M": 5,
+        "L": 3,
+        "XL": 1
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "W004",
+      "name": "Knitted Cardigan",
+      "description": "A soft knitted cardigan for layering.",
+      "price": 34.99,
+      "currency": "USD",
+      "category": "Outerwear",
+      "gender": "Women",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Grey", "Cream"],
+      "material": "Acrylic",
+      "season": ["Fall", "Winter"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "S": 4,
+        "M": 6,
+        "L": 2
+      },
+      "care_instructions": "Hand wash cold."
+    },
+    {
+      "id": "W005",
+      "name": "Pleated Midi Skirt",
+      "description": "Elegant pleated skirt suitable for casual and semi-formal wear.",
+      "price": 29.99,
+      "currency": "USD",
+      "category": "Bottomwear",
+      "gender": "Women",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Black", "Brown"],
+      "material": "Polyester",
+      "season": ["Spring", "Fall"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "S": 6,
+        "M": 4,
+        "L": 3
+      },
+      "care_instructions": "Machine wash gentle."
+    },
+  
+    {
+      "id": "M001",
+      "name": "Classic Crew Neck T-Shirt",
+      "description": "A comfortable crew neck t-shirt for everyday wear.",
+      "price": 17.99,
+      "currency": "USD",
+      "category": "Topwear",
+      "gender": "Men",
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": ["Black", "White", "Navy"],
+      "material": "100% Cotton",
+      "season": ["Spring", "Summer"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "M": 12,
+        "L": 9,
+        "XL": 5,
+        "XXL": 2
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "M002",
+      "name": "Slim Fit Chinos",
+      "description": "Slim fit chinos suitable for casual and office wear.",
+      "price": 44.99,
+      "currency": "USD",
+      "category": "Bottomwear",
+      "gender": "Men",
+      "sizes": ["M", "L", "XL"],
+      "colors": ["Khaki", "Black"],
+      "material": "Cotton Blend",
+      "season": ["All"],
+      "style": ["Casual"],
+      "fit": "Slim",
+      "availability": {
+        "M": 7,
+        "L": 5,
+        "XL": 3
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "M003",
+      "name": "Hooded Sweatshirt",
+      "description": "A warm hooded sweatshirt for casual wear.",
+      "price": 39.99,
+      "currency": "USD",
+      "category": "Topwear",
+      "gender": "Men",
+      "sizes": ["M", "L", "XL"],
+      "colors": ["Grey", "Black"],
+      "material": "Cotton Blend",
+      "season": ["Fall", "Winter"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "M": 6,
+        "L": 4,
+        "XL": 2
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "M004",
+      "name": "Denim Jacket",
+      "description": "Classic denim jacket for casual layering.",
+      "price": 59.99,
+      "currency": "USD",
+      "category": "Outerwear",
+      "gender": "Men",
+      "sizes": ["M", "L", "XL"],
+      "colors": ["Blue"],
+      "material": "Denim",
+      "season": ["Spring", "Fall"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "M": 3,
+        "L": 2,
+        "XL": 1
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "M005",
+      "name": "Formal Button-Down Shirt",
+      "description": "A classic button-down shirt suitable for formal occasions.",
+      "price": 49.99,
+      "currency": "USD",
+      "category": "Topwear",
+      "gender": "Men",
+      "sizes": ["M", "L", "XL"],
+      "colors": ["White", "Light Blue"],
+      "material": "Cotton",
+      "season": ["All"],
+      "style": ["Formal"],
+      "fit": "Regular",
+      "availability": {
+        "M": 5,
+        "L": 4,
+        "XL": 2
+      },
+      "care_instructions": "Machine wash warm."
+    },
+  
+    {
+      "id": "C001",
+      "name": "Kids Graphic T-Shirt",
+      "description": "Fun graphic t-shirt made for everyday play.",
+      "price": 14.99,
+      "currency": "USD",
+      "category": "Topwear",
+      "gender": "Children",
+      "sizes": ["XS", "S", "M"],
+      "colors": ["Red", "Blue"],
+      "material": "Cotton",
+      "season": ["Spring", "Summer"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "XS": 8,
+        "S": 6,
+        "M": 4
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "C002",
+      "name": "Kids Denim Shorts",
+      "description": "Comfortable denim shorts for active kids.",
+      "price": 19.99,
+      "currency": "USD",
+      "category": "Bottomwear",
+      "gender": "Children",
+      "sizes": ["XS", "S", "M"],
+      "colors": ["Blue"],
+      "material": "Denim",
+      "season": ["Summer"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "XS": 5,
+        "S": 4,
+        "M": 3
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "C003",
+      "name": "Kids Hoodie",
+      "description": "Soft and warm hoodie for everyday wear.",
+      "price": 24.99,
+      "currency": "USD",
+      "category": "Topwear",
+      "gender": "Children",
+      "sizes": ["XS", "S", "M"],
+      "colors": ["Grey", "Pink"],
+      "material": "Cotton Blend",
+      "season": ["Fall", "Winter"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "XS": 6,
+        "S": 5,
+        "M": 2
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "C004",
+      "name": "Kids Jogger Pants",
+      "description": "Comfortable jogger pants for school and play.",
+      "price": 22.99,
+      "currency": "USD",
+      "category": "Bottomwear",
+      "gender": "Children",
+      "sizes": ["XS", "S", "M"],
+      "colors": ["Black", "Grey"],
+      "material": "Cotton Blend",
+      "season": ["All"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "XS": 7,
+        "S": 5,
+        "M": 3
+      },
+      "care_instructions": "Machine wash cold."
+    },
+    {
+      "id": "C005",
+      "name": "Kids Winter Jacket",
+      "description": "Warm padded jacket for cold weather.",
+      "price": 49.99,
+      "currency": "USD",
+      "category": "Outerwear",
+      "gender": "Children",
+      "sizes": ["XS", "S", "M"],
+      "colors": ["Navy", "Red"],
+      "material": "Polyester",
+      "season": ["Winter"],
+      "style": ["Casual"],
+      "fit": "Regular",
+      "availability": {
+        "XS": 4,
+        "S": 3,
+        "M": 2
+      },
+      "care_instructions": "Machine wash cold."
+    }
+  ]
+  
