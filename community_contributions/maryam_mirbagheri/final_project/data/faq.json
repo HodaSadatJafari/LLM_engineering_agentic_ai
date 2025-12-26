@@ -1,0 +1,168 @@
+[
+    {
+      "id": "faq_opening_hours",
+      "category": "hours",
+      "intent": "ask_opening_hours",
+      "question_variants": [
+        "What are your opening hours?",
+        "When are you open?",
+        "What time does the shop open?",
+        "Are you open today?"
+      ],
+      "answer": "Our clothing shop is open from 10 AM to 9 PM, Saturday through Thursday."
+    },
+    {
+      "id": "faq_store_location",
+      "category": "location",
+      "intent": "ask_store_location",
+      "question_variants": [
+        "Where is your shop located?",
+        "What is your address?",
+        "How can I find your store?"
+      ],
+      "answer": "Our shop is located on Main Street in Downtown, near the central mall."
+    },
+    {
+      "id": "faq_online_shopping",
+      "category": "shopping",
+      "intent": "ask_online_shopping",
+      "question_variants": [
+        "Do you offer online shopping?",
+        "Can I order clothes online?",
+        "Do you have a website?"
+      ],
+      "answer": "Yes, you can shop online through our website and place orders for home delivery."
+    },
+    {
+      "id": "faq_payment_methods",
+      "category": "payment",
+      "intent": "ask_payment_methods",
+      "question_variants": [
+        "What payment methods do you accept?",
+        "Can I pay by card?",
+        "Do you accept cash?"
+      ],
+      "answer": "We accept cash, credit cards, debit cards, and online payments."
+    },
+    {
+      "id": "faq_return_policy",
+      "category": "returns",
+      "intent": "ask_return_policy",
+      "question_variants": [
+        "What is your return policy?",
+        "Can I return an item?",
+        "How long do I have to return clothes?"
+      ],
+      "answer": "Items can be returned within 14 days of purchase if they are unused and have the original tags."
+    },
+    {
+      "id": "faq_exchange_policy",
+      "category": "returns",
+      "intent": "ask_exchange_policy",
+      "question_variants": [
+        "Can I exchange an item?",
+        "Do you allow exchanges?",
+        "Can I change the size or color?"
+      ],
+      "answer": "Yes, exchanges are allowed within 14 days of purchase, subject to item availability."
+    },
+    {
+      "id": "faq_refund_policy",
+      "category": "returns",
+      "intent": "ask_refund_policy",
+      "question_variants": [
+        "Do you offer refunds?",
+        "How do I get a refund?",
+        "Will I get my money back?"
+      ],
+      "answer": "Refunds are issued for eligible returns using the original payment method."
+    },
+    {
+      "id": "faq_delivery_time",
+      "category": "shipping",
+      "intent": "ask_delivery_time",
+      "question_variants": [
+        "How long does delivery take?",
+        "When will my order arrive?",
+        "Shipping time"
+      ],
+      "answer": "Delivery usually takes 3 to 5 business days, depending on your location."
+    },
+    {
+      "id": "faq_international_shipping",
+      "category": "shipping",
+      "intent": "ask_international_shipping",
+      "question_variants": [
+        "Do you offer international shipping?",
+        "Do you ship abroad?",
+        "Can you deliver outside the country?"
+      ],
+      "answer": "Currently, we only offer shipping within the country."
+    },
+    {
+      "id": "faq_order_tracking",
+      "category": "orders",
+      "intent": "ask_order_tracking",
+      "question_variants": [
+        "How can I track my order?",
+        "Where is my order?",
+        "Order tracking"
+      ],
+      "answer": "Once your order is shipped, you will receive a tracking link via email."
+    },
+    {
+      "id": "faq_available_sizes",
+      "category": "sizing",
+      "intent": "ask_available_sizes",
+      "question_variants": [
+        "What sizes do you offer?",
+        "Do you have large sizes?",
+        "What size range is available?"
+      ],
+      "answer": "We offer sizes ranging from XS to XXL, depending on the product."
+    },
+    {
+      "id": "faq_size_guide",
+      "category": "sizing",
+      "intent": "ask_size_guide",
+      "question_variants": [
+        "Do you have a size guide?",
+        "How do I choose my size?",
+        "Sizing chart"
+      ],
+      "answer": "Yes, a detailed size guide is available on each product page."
+    },
+    {
+      "id": "faq_product_care",
+      "category": "product_care",
+      "intent": "ask_product_care",
+      "question_variants": [
+        "How should I care for my clothes?",
+        "Washing instructions",
+        "Garment care tips"
+      ],
+      "answer": "Care instructions are provided on the label of each garment."
+    },
+    {
+      "id": "faq_discounts",
+      "category": "pricing",
+      "intent": "ask_discounts",
+      "question_variants": [
+        "Do you offer discounts?",
+        "Are there any promotions?",
+        "Do you have sales?"
+      ],
+      "answer": "Yes, we regularly offer seasonal discounts and promotions."
+    },
+    {
+      "id": "faq_customer_support",
+      "category": "support",
+      "intent": "ask_customer_support",
+      "question_variants": [
+        "How can I contact customer support?",
+        "I need help",
+        "Customer service contact"
+      ],
+      "answer": "You can contact us via phone, email, or through the contact form on our website."
+    }
+  ]
