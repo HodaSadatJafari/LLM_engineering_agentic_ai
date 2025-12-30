@@ -1,0 +1,564 @@
+{
+  "sales": [
+    {
+      "id": 1,
+      "name": "Samsung 2TB Portable SSD",
+      "off_percent": 25,
+      "price": 149.99,
+      "description": "High-speed portable SSD with 2TB storage, USB-C connectivity, and rugged design.",
+      "review_count": 342,
+      "rating": 4.7,
+      "customer_reviews": [
+        "Incredibly fast transfers and super reliable. Best portable drive I've owned!",
+        "Great speed, but it gets quite warm during heavy use.",
+        "Perfect size and performance for backing up my photo library. Highly recommend."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dell XPS 15 Laptop",
+      "off_percent": 15,
+      "price": 1699.99,
+      "description": "Powerful 15-inch laptop with Intel i7, 16GB RAM, 512GB SSD, and 4K OLED display.",
+      "review_count": 128,
+      "rating": 4.8,
+      "customer_reviews": [
+        "Stunning display and excellent build quality. Worth every penny.",
+        "Battery life is shorter than advertised when using heavy apps.",
+        "The keyboard and trackpad are the best I've ever used on a Windows laptop."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Laptop Backpack 17-inch",
+      "off_percent": 40,
+      "price": 35.99,
+      "description": "Water-resistant backpack with padded laptop compartment and multiple pockets.",
+      "review_count": 567,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Lots of compartments and very comfortable for daily commute.",
+        "Zippers feel a bit cheap, one already snagged after a month.",
+        "Great value for the price, fits my 17-inch laptop perfectly."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Men's Cotton Casual Shirt",
+      "off_percent": 30,
+      "price": 27.99,
+      "description": "Slim-fit long-sleeve button-down shirt made from 100% cotton.",
+      "review_count": 892,
+      "rating": 4.3,
+      "customer_reviews": [
+        "Soft fabric and fits true to size. Looks sharp casual or dressed up.",
+        "Shrunk a little after first wash even on cold.",
+        "Good quality cotton, nice color options available."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Slim Fit Chino Pants",
+      "off_percent": 20,
+      "price": 39.99,
+      "description": "Comfortable stretch chino pants with modern slim fit.",
+      "review_count": 456,
+      "rating": 4.4,
+      "customer_reviews": [
+        "Super comfortable with just the right amount of stretch.",
+        "Pockets are too shallow, phone falls out when sitting.",
+        "Great everyday pants, durable and stylish."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "iPhone 16 Pro 256GB",
+      "off_percent": 10,
+      "price": 1079.99,
+      "description": "Latest iPhone with A18 chip, advanced camera system, and titanium design.",
+      "review_count": 210,
+      "rating": 4.9,
+      "customer_reviews": [
+        "Camera is mind-blowing, battery lasts all day easily.",
+        "Overheats when recording 4K video for long periods.",
+        "Best iPhone yet, the titanium feels premium."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Apple AirPods Pro 2",
+      "off_percent": 22,
+      "price": 194.99,
+      "description": "Active noise cancellation wireless earbuds with spatial audio and MagSafe charging.",
+      "review_count": 1456,
+      "rating": 4.6,
+      "customer_reviews": [
+        "Noise cancellation is top-notch, perfect for flights.",
+        "Fit is uncomfortable for my ears after an hour.",
+        "Sound quality and features are unbeatable at this price."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Seagate 4TB External Hard Drive",
+      "off_percent": 35,
+      "price": 84.99,
+      "description": "USB 3.0 external HDD for backups and extra storage.",
+      "review_count": 789,
+      "rating": 4.4,
+      "customer_reviews": [
+        "Huge storage for the price, reliable so far.",
+        "A bit noisy when spinning up.",
+        "Great for archiving old files and media."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Wireless Gaming Mouse",
+      "off_percent": 45,
+      "price": 44.99,
+      "description": "RGB gaming mouse with 16,000 DPI sensor and programmable buttons.",
+      "review_count": 623,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Smooth tracking and long battery life.",
+        "Software is bloated and hard to customize.",
+        "Excellent value gaming mouse."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Mechanical Gaming Keyboard",
+      "off_percent": 28,
+      "price": 79.99,
+      "description": "RGB backlit mechanical keyboard with blue switches.",
+      "review_count": 512,
+      "rating": 4.7,
+      "customer_reviews": [
+        "Clicky switches feel amazing to type on.",
+        "Very loud, not office-friendly.",
+        "Build quality is solid for the price."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Samsung 34-inch Ultrawide Monitor",
+      "off_percent": 18,
+      "price": 499.99,
+      "description": "Curved QHD monitor with 144Hz refresh rate.",
+      "review_count": 234,
+      "rating": 4.8,
+      "customer_reviews": [
+        "Immersive curve and smooth gaming experience.",
+        "Stand doesn't adjust height enough.",
+        "Productivity booster with all that screen space."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Women's Yoga Pants",
+      "off_percent": 50,
+      "price": 24.99,
+      "description": "High-waisted leggings with 4-way stretch fabric.",
+      "review_count": 1203,
+      "rating": 4.6,
+      "customer_reviews": [
+        "So soft and squat-proof, love them!",
+        "Waistband rolls down during intense workouts.",
+        "Best leggings I've bought at this price."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Noise-Cancelling Headphones",
+      "off_percent": 32,
+      "price": 199.99,
+      "description": "Over-ear Bluetooth headphones with 30-hour battery life.",
+      "review_count": 987,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Battery really lasts forever, great ANC.",
+        "Ear cups get hot after long use.",
+        "Comfortable for all-day listening."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "MacBook Air M3 13-inch",
+      "off_percent": 12,
+      "price": 1099.99,
+      "description": "Lightweight laptop with Apple M3 chip and all-day battery.",
+      "review_count": 178,
+      "rating": 4.9,
+      "customer_reviews": [
+        "Blazing fast and silent, fantastic machine.",
+        "Only two ports is limiting.",
+        "Battery life is truly impressive."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Leather Laptop Sleeve 15-inch",
+      "off_percent": 38,
+      "price": 29.99,
+      "description": "Genuine leather protective sleeve with soft interior lining.",
+      "review_count": 412,
+      "rating": 4.4,
+      "customer_reviews": [
+        "Smells like real leather, looks classy.",
+        "A bit tight for thicker laptops.",
+        "Good protection and stylish."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Denim Jeans Men",
+      "off_percent": 25,
+      "price": 44.99,
+      "description": "Classic straight-fit denim jeans with stretch.",
+      "review_count": 678,
+      "rating": 4.3,
+      "customer_reviews": [
+        "Comfortable stretch without looking like jeggings.",
+        "Faded faster than expected after washes.",
+        "Fit perfectly right out of the box."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "iPad Pro 11-inch",
+      "off_percent": 15,
+      "price": 849.99,
+      "description": "Powerful tablet with M4 chip and OLED display.",
+      "review_count": 156,
+      "rating": 4.8,
+      "customer_reviews": [
+        "The OLED screen is gorgeous, blacks are deep.",
+        "Expensive accessories add up quickly.",
+        "Runs like a computer, amazing performance."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Samsung Galaxy Buds 3",
+      "off_percent": 30,
+      "price": 104.99,
+      "description": "True wireless earbuds with adaptive noise cancellation.",
+      "review_count": 543,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Good sound and ANC for Android users.",
+        "Case feels cheap compared to competitors.",
+        "Secure fit during runs."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "WD 1TB NVMe SSD Internal",
+      "off_percent": 20,
+      "price": 79.99,
+      "description": "High-performance PCIe Gen4 internal SSD.",
+      "review_count": 890,
+      "rating": 4.7,
+      "customer_reviews": [
+        "Boot times are instant now, huge upgrade.",
+        "Runs hot under sustained loads.",
+        "Excellent speed for the money."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Casual Hoodie",
+      "off_percent": 40,
+      "price": 29.99,
+      "description": "Soft fleece hoodie with kangaroo pocket.",
+      "review_count": 1023,
+      "rating": 4.6,
+      "customer_reviews": [
+        "Super cozy and warm, perfect for winter.",
+        "Drawstrings came frayed.",
+        "Great everyday lounge hoodie."
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Gaming Laptop RTX 4070",
+      "off_percent": 18,
+      "price": 1399.99,
+      "description": "High-performance gaming laptop with RTX 4070 GPU.",
+      "review_count": 89,
+      "rating": 4.7,
+      "customer_reviews": [
+        "Runs all games maxed out at 1440p smoothly.",
+        "Fans are very loud under load.",
+        "Solid build and great screen."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Travel Laptop Bag",
+      "off_percent": 35,
+      "price": 49.99,
+      "description": "TSA-friendly laptop messenger bag with organizer pockets.",
+      "review_count": 367,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Makes airport security a breeze.",
+        "Shoulder strap padding could be thicker.",
+        "Well-organized for business travel."
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Polo T-Shirt Men",
+      "off_percent": 45,
+      "price": 16.99,
+      "description": "Classic cotton polo shirt with embroidered logo.",
+      "review_count": 1345,
+      "rating": 4.4,
+      "customer_reviews": [
+        "Nice fit and breathable fabric.",
+        "Collar loses shape after a few washes.",
+        "Good quality for the sale price."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Cargo Pants",
+      "off_percent": 28,
+      "price": 39.99,
+      "description": "Relaxed fit cargo pants with multiple pockets.",
+      "review_count": 456,
+      "rating": 4.3,
+      "customer_reviews": [
+        "Tons of useful pockets, very practical.",
+        "Material feels a bit stiff at first.",
+        "Comfortable for outdoor activities."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "iPhone 15 Case",
+      "off_percent": 50,
+      "price": 14.99,
+      "description": "Shockproof clear case with MagSafe compatibility.",
+      "review_count": 2109,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Protects well and MagSafe works perfectly.",
+        "Yellows slightly after a few months.",
+        "Great drop protection for the price."
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Sony True Wireless Earbuds",
+      "off_percent": 25,
+      "price": 149.99,
+      "description": "Premium earbuds with industry-leading noise cancellation.",
+      "review_count": 678,
+      "rating": 4.6,
+      "customer_reviews": [
+        "Best noise cancellation I've tried.",
+        "Battery life shorter than advertised.",
+        "Sound is rich and detailed."
+      ]
+    },
+    {
+      "id": 27,
+      "name": "1TB External SSD",
+      "off_percent": 30,
+      "price": 89.99,
+      "description": "Compact and fast USB-C external solid-state drive.",
+      "review_count": 512,
+      "rating": 4.7,
+      "customer_reviews": [
+        "Tiny and blazing fast transfers.",
+        "Cable is too short.",
+        "Reliable portable storage."
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Running Shoes Men",
+      "off_percent": 40,
+      "price": 59.99,
+      "description": "Lightweight cushioned running sneakers.",
+      "review_count": 823,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Great cushioning for long runs.",
+        "Sizing runs small, had to exchange.",
+        "Comfortable right out of the box."
+      ]
+    },
+    {
+      "id": 29,
+      "name": "USB-C Hub 7-in-1",
+      "off_percent": 35,
+      "price": 32.99,
+      "description": "Multiport adapter with HDMI, SD card reader, and PD charging.",
+      "review_count": 945,
+      "rating": 4.4,
+      "customer_reviews": [
+        "All ports work well, good build.",
+        "Gets warm when using multiple ports.",
+        "Essential for my MacBook."
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Bluetooth Speaker Portable",
+      "off_percent": 42,
+      "price": 34.99,
+      "description": "Waterproof speaker with 12-hour battery and deep bass.",
+      "review_count": 1123,
+      "rating": 4.6,
+      "customer_reviews": [
+        "Surprisingly loud with good bass.",
+        "Battery doesn't last full 12 hours at max volume.",
+        "Perfect for pool parties."
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Formal Dress Shirt",
+      "off_percent": 20,
+      "price": 31.99,
+      "description": "Wrinkle-resistant dress shirt for business attire.",
+      "review_count": 389,
+      "rating": 4.3,
+      "customer_reviews": [
+        "Stays wrinkle-free all day.",
+        "Fit is a bit boxy.",
+        "Good quality fabric and stitching."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Fitness Tracker Watch",
+      "off_percent": 38,
+      "price": 79.99,
+      "description": "Smartwatch with heart rate monitor and GPS.",
+      "review_count": 1567,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Accurate tracking and long battery.",
+        "App is buggy sometimes.",
+        "Great value fitness watch."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Laptop Stand Aluminum",
+      "off_percent": 45,
+      "price": 21.99,
+      "description": "Ergonomic adjustable stand for laptops and tablets.",
+      "review_count": 2108,
+      "rating": 4.7,
+      "customer_reviews": [
+        "Sturdy and improves posture.",
+        "A bit slippery for heavier laptops.",
+        "Excellent for working from home."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Wireless Charger Stand",
+      "off_percent": 30,
+      "price": 27.99,
+      "description": "Fast wireless charging stand compatible with iPhone and Android.",
+      "review_count": 734,
+      "rating": 4.4,
+      "customer_reviews": [
+        "Charges quickly and holds phone at good angle.",
+        "Only works with thin cases.",
+        "Convenient bedside charger."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Thermal Winter Jacket",
+      "off_percent": 55,
+      "price": 69.99,
+      "description": "Water-resistant insulated jacket for cold weather.",
+      "review_count": 567,
+      "rating": 4.6,
+      "customer_reviews": [
+        "Keeps me warm in freezing temps.",
+        "Zipper jams occasionally.",
+        "Lightweight yet very warm."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Webcam 4K",
+      "off_percent": 25,
+      "price": 99.99,
+      "description": "Ultra HD webcam with autofocus and stereo microphones.",
+      "review_count": 423,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Crystal clear video for meetings.",
+        "Software installation was tricky.",
+        "Big upgrade from laptop camera."
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Graphic T-Shirt Pack (3)",
+      "off_percent": 40,
+      "price": 23.99,
+      "description": "Pack of three soft cotton graphic tees.",
+      "review_count": 1890,
+      "rating": 4.4,
+      "customer_reviews": [
+        "Soft and designs are cool.",
+        "Prints started cracking after washes.",
+        "Good value for three shirts."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Power Bank 20000mAh",
+      "off_percent": 32,
+      "price": 29.99,
+      "description": "Fast-charging portable battery with dual USB ports.",
+      "review_count": 1345,
+      "rating": 4.6,
+      "customer_reviews": [
+        "Charges my phone multiple times.",
+        "Heavy for its capacity.",
+        "Reliable when traveling."
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Ergonomic Office Chair",
+      "off_percent": 28,
+      "price": 179.99,
+      "description": "Adjustable mesh chair with lumbar support.",
+      "review_count": 312,
+      "rating": 4.5,
+      "customer_reviews": [
+        "Great back support for long hours.",
+        "Assembly took longer than expected.",
+        "Comfortable and breathable mesh."
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Smart Home WiFi Plug",
+      "off_percent": 50,
+      "price": 12.99,
+      "description": "Voice-controlled smart plug compatible with Alexa and Google Home.",
+      "review_count": 2103,
+      "rating": 4.7,
+      "customer_reviews": [
+        "Easy setup and works flawlessly.",
+        "Occasionally loses connection.",
+        "Perfect for automating lights."
+      ]
+    }
+  ]
+}
