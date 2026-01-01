@@ -1,76 +1,79 @@
-🛒 ShopBot – Enterprise AI Shopping Assistant
+```markdown
+# 🛒 ShopBot – Enterprise AI Shopping Assistant
 
-ShopBot is a production-ready Persian AI shopping assistant built with modern LLM architecture, semantic search, and modular admin & analytics panels.
+ShopBot is a production-ready **Persian AI shopping assistant** built with modern LLM architecture, semantic search, and modular admin & analytics panels.
 
 This README is written for developers, teams, and companies who want to understand, run, extend, and maintain the system.
 
-1. What is ShopBot?
+---
+
+## 1. What is ShopBot?
 
 ShopBot is an AI-powered conversational shopping system that allows users to:
 
-Search products using natural language (Persian)
+- Search products using natural language (Persian)
+- Receive grounded, non-hallucinated answers
+- Interact with a real product catalog
 
-Receive grounded, non-hallucinated answers
+### Behind the scenes, it uses:
 
-Interact with a real product catalog
+- **AvalAI** (OpenAI-compatible API)
+- **GPT-4o-mini** for reasoning & conversation
+- **FAISS** for semantic vector search (RAG)
+- **Gradio 6.x** for user-facing and admin UIs
 
-Behind the scenes, it uses:
+---
 
-AvalAI (OpenAI-compatible API)
+## 2. Core Capabilities
 
-GPT-4o-mini for reasoning & conversation
+### User Features
 
-FAISS for semantic vector search (RAG)
+- Conversational product search  
+- Semantic understanding (e.g. _"I want to buy a phone"_)  
+- Natural Persian responses  
+- Extendable cart & checkout logic  
 
-Gradio 6.x for user-facing and admin UIs
+### Admin Features
 
-2. Core Capabilities
+- Product management (add / view)
+- Order visibility
+- Automatic FAISS index rebuild
 
-User Features
+### Analytics Features
 
-Conversational product search
+- Intent tracking
+- Search statistics
+- Interaction logs
 
-Semantic understanding ("I want to buy a phone")
+---
 
-Natural Persian responses
+## 3. High-Level Architecture
 
-Extendable cart & checkout logic
-
-Admin Features
-
-Product management (add / view)
-
-Order visibility
-
-Automatic FAISS index rebuild
-
-Analytics Features
-
-Intent tracking
-
-Search statistics
-
-Interaction logs
-
-3. High-Level Architecture
+```
 
 User
- ↓
+↓
 Gradio ChatInterface
- ↓
+↓
 ShopBot Agent
- ↓
+↓
 Intent Detection
- ↓
+↓
 RAG Layer (FAISS)
- ↓
+↓
 AvalAI (GPT-4o-mini)
 
-Key Design Principle:
+```
 
-LLM never answers blindly — it is always grounded by retrieved data.
+**Key Design Principle**
 
-4. Project Structure
+> LLM never answers blindly — it is always grounded by retrieved data.
+
+---
+
+## 4. Project Structure
+
+```
 
 shopbot/
 ├── app.py                  # User entry point
@@ -90,37 +93,52 @@ shopbot/
 ├── .env
 ├── .env.example
 └── data/
-    ├── products.json
-    ├── faqs.json
-    ├── orders.json
-    ├── analytics.json
-    └── index/
+├── products.json
+├── faqs.json
+├── orders.json
+├── analytics.json
+└── index/
 
-5. Installation Guide
+````
 
-5.1 Create Virtual Environment
+---
 
+## 5. Installation Guide
+
+### 5.1 Create Virtual Environment
+
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux / macOS
 venv\Scripts\activate      # Windows
+````
 
-5.2 Install Dependencies
+### 5.2 Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-6. Environment Configuration
+---
 
-Create .env:
+## 6. Environment Configuration
 
+Create `.env`:
+
+```env
 AVALAI_API_KEY=AA-XXXXXXXXXXXXXXXXXXXXXXXX
 AVALAI_BASE_URL=https://api.avalai.ir/v1
+```
 
-Never commit .env — use .env.example for sharing.
+> ⚠️ Never commit `.env` — use `.env.example` for sharing.
 
-7. Product Data Format
+---
 
-data/products.json
+## 7. Product Data Format
 
+**`data/products.json`**
+
+```json
 [
   {
     "name": "Samsung Galaxy A55",
@@ -130,122 +148,145 @@ data/products.json
     "category": "mobile"
   }
 ]
+```
 
-Important:
+**Important**
 
-Products are embedded using: name + description + category
+* Products are embedded using: `name + description + category`
+* Any change requires rebuilding the FAISS index
 
-Any change requires rebuilding FAISS index
+---
 
-8. Build FAISS Index (Required)
+## 8. Build FAISS Index (Required)
 
+```bash
 python build_index.py
+```
 
 Expected output:
 
+```
 ✅ FAISS indexes created successfully.
+```
 
 This step must be repeated whenever products or FAQs change.
 
-9. Running the User Panel
+---
 
+## 9. Running the User Panel
+
+```bash
 python app.py
+```
 
-URL: http://127.0.0.1:7860
+**URL:**
+[http://127.0.0.1:7860](http://127.0.0.1:7860)
 
-Example queries:
+**Example queries:**
 
-سلام
+* سلام
+* گوشی میخوام بخرم
+* لپتاپ گیمینگ
 
-گوشی میخوام بخرم
+---
 
-لپتاپ گیمینگ
+## 10. Running the Admin Panel
 
-10. Running the Admin Panel
-
+```bash
 python admin_ui.py
+```
 
-URL: http://127.0.0.1:7861
+**URL:**
+[http://127.0.0.1:7861](http://127.0.0.1:7861)
 
-Capabilities:
+**Capabilities**
 
-View products
+* View products
+* Add products
+* Automatic FAISS rebuild
 
-Add products
+---
 
-Automatic FAISS rebuild
+## 11. Running Analytics Dashboard
 
-11. Running Analytics Dashboard
-
+```bash
 python analytics_dashboard.py
+```
 
-URL: http://127.0.0.1:7862
+**URL:**
+[http://127.0.0.1:7862](http://127.0.0.1:7862)
 
-Displays:
+**Displays**
 
-User intents
+* User intents
+* Event counts
+* Interaction history
 
-Event counts
+---
 
-Interaction history
+## 12. How RAG Works in ShopBot
 
-12. How RAG Works in ShopBot
-
-User query is embedded
-
-FAISS finds nearest product vectors
-
-Retrieved data is injected into GPT prompt
-
-GPT generates a grounded response
+1. User query is embedded
+2. FAISS finds nearest product vectors
+3. Retrieved data is injected into GPT prompt
+4. GPT generates a grounded response
 
 This prevents hallucination and ensures accuracy.
 
-13. Debugging Guide
+---
 
-Products not found?
+## 13. Debugging Guide
 
-Check data/index/
+### Products not found?
 
-Re-run python build_index.py
+* Check `data/index/`
+* Re-run:
 
-Ensure products.json is not empty
+  ```bash
+  python build_index.py
+  ```
+* Ensure `products.json` is not empty
 
-FAISS mismatch?
+### FAISS mismatch?
 
+```python
 print(PRODUCT_INDEX.ntotal)
 print(len(PRODUCT_META))
+```
 
-Both must match.
+Both values must match.
 
-14. Security & Production Notes
+---
 
-API keys are stored only in .env
+## 14. Security & Production Notes
 
-Admin UI should be protected in production
+* API keys are stored only in `.env`
+* Admin UI should be protected in production
+* Analytics data can be moved to a database
 
-Analytics data can be moved to a database
+---
 
-15. Roadmap (Non-Deploy)
+## 15. Roadmap (Non-Deploy)
 
-Authentication (Admin / Users)
+* Authentication (Admin / Users)
+* Database integration
+* Payment gateway
+* Role-based access
+* Automated tests
+* Monitoring & logging
 
-Database integration
+---
 
-Payment gateway
+## 16. License
 
-Role-based access
+**MIT License**
 
-Automated tests
+---
 
-Monitoring & logging
+## 17. Final Notes
 
-16. License
-
-MIT License
-
-17. Final Notes
-
-ShopBot is designed as a real AI system, not a toy demo.
+ShopBot is designed as a **real AI system**, not a toy demo.
 Its architecture allows seamless scaling into enterprise e-commerce solutions.
 
+```
+```
