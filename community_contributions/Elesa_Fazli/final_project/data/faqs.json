@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How can I place an order?",
+    "answer": "You can place an order anytime through our online store. Just browse products, add them to cart, and proceed to checkout."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept online payment via bank cards and bank transfers. Payment is processed securely through a trusted payment gateway."
+  },
+  {
+    "question": "Can I pay on delivery (Cash on Delivery)?",
+    "answer": "At the moment we do not support cash on delivery. All payments need to be completed online during checkout."
+  },
+  {
+    "question": "How long does shipping take?",
+    "answer": "Shipping time depends on your location. Typically orders are delivered within 2 to 7 business days. You will be notified with a tracking number once your order is shipped."
+  },
+  {
+    "question": "Do you ship to all cities/regions?",
+    "answer": "Yes — we ship to all major cities and regions. Shipping availability and cost may vary depending on the destination."
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "After your order is shipped, we will provide a tracking number. You can use that number on the courier’s website to see the delivery status."
+  },
+  {
+    "question": "What happens if the product I ordered is out of stock?",
+    "answer": "If a product is out of stock, we will notify you as soon as possible. You can choose to wait for restocking, select another product, or cancel your order with full refund if payment was done."
+  },
+  {
+    "question": "Can I cancel or modify my order after placing it?",
+    "answer": "Yes — you may cancel or modify your order as long as it has not been shipped. Once shipped, cancelation is not possible. Please contact support if you want to change your order before dispatch."
+  },
+  {
+    "question": "What is your return or refund policy?",
+    "answer": "You can request a return or refund within 30 days after delivery, provided the product is unused, in original packaging, and with invoice or receipt. For more details, check our Return Policy page or contact support."
+  },
+  {
+    "question": "What if I receive a damaged or wrong product?",
+    "answer": "If you receive a damaged or incorrect item, please contact our support within 48 hours of delivery. We will guide you through return or exchange process immediately."
+  },
+  {
+    "question": "Are all products genuine and original?",
+    "answer": "Yes — we guarantee that all products are genuine, original, and come with manufacturer’s warranty if applicable. We do not sell counterfeit or replica items."
+  },
+  {
+    "question": "How can I contact customer support?",
+    "answer": "You can contact customer support via email or the contact form on our website. We aim to respond within 24 hours on business days."
+  },
+  {
+    "question": "Is my personal and payment information secure?",
+    "answer": "Yes — we use secure HTTPS protocol and a trusted payment gateway. We do not store sensitive payment details on our servers. Your privacy and security are a top priority."
+  },
+  {
+    "question": "Can I order multiple items at once? Is there a limit on quantity?",
+    "answer": "Yes — you can order multiple items in one order. For bulk orders or very large quantities, please contact support to check availability and shipping cost."
+  },
+  {
+    "question": "Do you offer gift wrapping or gift receipt options?",
+    "answer": "Currently we do not offer gift wrapping, but you can request a regular invoice or a gift receipt by contacting our support after placing the order."
+  },
+  {
+    "question": "What should I do if I missed the delivery or I’m not home when courier arrives?",
+    "answer": "If you’re not available at the time of delivery, the courier will try to contact you or leave a notification. You may reschedule delivery or pick up the package at the nearest courier center."
+  },
+  {
+    "question": "What if the payment was successful but I did not receive order confirmation?",
+    "answer": "Sometimes payment gateway delays can occur. If your payment was successful but you did not receive confirmation, contact support — we will verify the payment and confirm or refund accordingly."
+  },
+  {
+    "question": "Can I request invoice for my purchase?",
+    "answer": "Yes — we issue an electronic invoice after each order. You can download it from your account dashboard or request via email if you lose it."
+  },
+  {
+    "question": "Do you offer discounts or special promotions?",
+    "answer": "Yes — we offer discounts and promotions occasionally. Check our 'Promotions' page or subscribe to newsletter to stay updated."
+  },
+  {
+    "question": "Can I return a product if I don't like it (no defect)?",
+    "answer": "Yes — you can return an item based on our return policy within 30 days after delivery, as long as it’s unused and in original condition. Shipping cost for return may need to be borne by customer unless there is a defect."
+  }
+]
+

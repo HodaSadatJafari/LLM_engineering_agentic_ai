@@ -1,0 +1,165 @@
+[
+  {
+    "id": "P001",
+    "title": "X1000 Laptop 14\" i5 8GB RAM 512GB SSD",
+    "description": "Lightweight 14‑inch laptop suitable for students and professionals. Intel i5, 8GB RAM, 512GB SSD, Windows 11.",
+    "price": 599.99,
+    "currency": "USD",
+    "availability": 25,
+    "category": "Electronics > Computers > Laptops",
+    "brand": "TechBrand",
+    "images": [
+      "https://example.com/images/P001_1.jpg",
+      "https://example.com/images/P001_2.jpg"
+    ],
+    "rating": 4.5,
+    "num_reviews": 112,
+    "tags": ["laptop", "lightweight", "student", "office"]
+  },
+  {
+    "id": "P002",
+    "title": "Smartphone Y200 – 6.5\" AMOLED, 128GB Storage, 8GB RAM",
+    "description": "Smartphone Y200 with 6.5-inch AMOLED display, 128GB storage, 8GB RAM, dual rear cameras, 5000 mAh battery.",
+    "price": 299.99,
+    "currency": "USD",
+    "availability": 40,
+    "category": "Electronics > Mobile Phones",
+    "brand": "PhoneCorp",
+    "images": [
+      "https://example.com/images/P002_1.jpg",
+      "https://example.com/images/P002_2.jpg"
+    ],
+    "rating": 4.2,
+    "num_reviews": 89,
+    "tags": ["smartphone", "android", "camera", "dual‑sim"]
+  },
+  {
+    "id": "P003",
+    "title": "Noise‑Cancelling Headphones Z‑Sound 700",
+    "description": "Over‑ear headphones with active noise cancellation, 20 h battery life, Bluetooth 5.2, comfortable fit for long listening sessions.",
+    "price": 89.99,
+    "currency": "USD",
+    "availability": 100,
+    "category": "Electronics > Audio > Headphones",
+    "brand": "SoundMaster",
+    "images": [
+      "https://example.com/images/P003_1.jpg"
+    ],
+    "rating": 4.6,
+    "num_reviews": 245,
+    "tags": ["headphones", "noise‑cancelling", "wireless", "music"]
+  },
+  {
+    "id": "P004",
+    "title": "Blender PowerMix 1500 – 1.5L, 5‑Speed",
+    "description": "High‑speed blender 1500W, 1.5 litre glass jar, 5 speed settings + pulse, perfect for smoothies and soups.",
+    "price": 49.99,
+    "currency": "USD",
+    "availability": 60,
+    "category": "Home & Kitchen > Kitchen Appliances > Blenders",
+    "brand": "HomeBest",
+    "images": [
+      "https://example.com/images/P004_1.jpg"
+    ],
+    "rating": 4.0,
+    "num_reviews": 45,
+    "tags": ["blender", "kitchen", "appliances", "smoothie"]
+  },
+  {
+    "id": "P005",
+    "title": "Vacuum Cleaner UltraClean 3000 – 2000 W",
+    "description": "Powerful 2000W vacuum cleaner with HEPA filter, 3.5 L dust bag, suitable for carpet and hard floors.",
+    "price": 129.99,
+    "currency": "USD",
+    "availability": 15,
+    "category": "Home & Kitchen > Home Appliances > Vacuum Cleaner",
+    "brand": "CleanHome",
+    "images": [
+      "https://example.com/images/P005_1.jpg"
+    ],
+    "rating": 4.3,
+    "num_reviews": 58,
+    "tags": ["vacuum", "home‑appliance", "cleaning"]
+  },
+  {
+    "id": "P006",
+    "title": "Digital SLR Camera D‑Shoot 24MP + 18‑55mm Lens",
+    "description": "DSLR camera 24 MP, 18‑55 mm kit lens, Full HD video, WiFi, ideal for photography enthusiasts and beginners.",
+    "price": 799.99,
+    "currency": "USD",
+    "availability": 8,
+    "category": "Electronics > Cameras & Photography",
+    "brand": "PhotoPro",
+    "images": [
+      "https://example.com/images/P006_1.jpg",
+      "https://example.com/images/P006_2.jpg"
+    ],
+    "rating": 4.7,
+    "num_reviews": 37,
+    "tags": ["camera", "dslr", "photography", "full‑hd"]
+  },
+  {
+    "id": "P007",
+    "title": "Men's Waterproof Sports Watch Series‑X",
+    "description": "Waterproof sports watch, heart‑rate monitor, step counter, 7‑day battery life, ideal for running and daily use.",
+    "price": 59.99,
+    "currency": "USD",
+    "availability": 75,
+    "category": "Fashion & Accessories > Watches > Sports Watches",
+    "brand": "SportTime",
+    "images": [
+      "https://example.com/images/P007_1.jpg"
+    ],
+    "rating": 4.1,
+    "num_reviews": 118,
+    "tags": ["watch", "sports", "waterproof"]
+  },
+  {
+    "id": "P008",
+    "title": "Women’s Leather Handbag Classic Medium Size",
+    "description": "Elegant medium‑size leather handbag, multiple compartments, adjustable shoulder strap, ideal for everyday use.",
+    "price": 45.99,
+    "currency": "USD",
+    "availability": 50,
+    "category": "Fashion & Accessories > Bags > Handbags",
+    "brand": "LeatherLux",
+    "images": [
+      "https://example.com/images/P008_1.jpg"
+    ],
+    "rating": 4.4,
+    "num_reviews": 22,
+    "tags": ["bag", "leather", "fashion", "handbag"]
+  },
+  {
+    "id": "P009",
+    "title": "Electric Kettle QuickBoil 1.7L Stainless Steel",
+    "description": "1.7 litre stainless steel electric kettle, auto shut‑off, boil‑dry protection, fast boiling.",
+    "price": 29.99,
+    "currency": "USD",
+    "availability": 120,
+    "category": "Home & Kitchen > Kitchen Appliances > Kettles",
+    "brand": "KitchenPro",
+    "images": [
+      "https://example.com/images/P009_1.jpg"
+    ],
+    "rating": 4.0,
+    "num_reviews": 90,
+    "tags": ["kettle", "electric", "kitchen"]
+  },
+  {
+    "id": "P010",
+    "title": "Running Shoes UltraRun 42EU – Size: 40‑45",
+    "description": "Lightweight running shoes, breathable mesh, EVA sole, sizes 40‑45 EU, ideal for jogging and daily wear.",
+    "price": 79.99,
+    "currency": "USD",
+    "availability": 65,
+    "category": "Sports & Outdoors > Footwear > Running Shoes",
+    "brand": "RunFast",
+    "images": [
+      "https://example.com/images/P010_1.jpg"
+    ],
+    "rating": 4.2,
+    "num_reviews": 76,
+    "tags": ["shoes", "running", "sports", "footwear"]
+  }
+]
