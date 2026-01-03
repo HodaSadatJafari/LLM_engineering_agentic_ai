@@ -1,0 +1,14 @@
+# UI
+gradio
+
+# OpenAI-compatible client (AvalAI)
+openai
+
+# Environment variables
+python-dotenv
+
+# Vector search (RAG)
+faiss-cpu
+
+# Numerical operations
+numpy

@@ -1,0 +1,232 @@
+[
+  {
+    "timestamp": "2026-01-01T12:50:08.573626",
+    "event_type": "user_message",
+    "data": "سلام"
+  },
+  {
+    "timestamp": "2026-01-01T12:50:10.609585",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T12:55:31.647739",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T12:55:32.863697",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T12:56:15.780621",
+    "event_type": "user_message",
+    "data": "سلام "
+  },
+  {
+    "timestamp": "2026-01-01T12:56:18.239626",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T12:56:23.431839",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T12:56:25.725087",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:00:57.959684",
+    "event_type": "user_message",
+    "data": "سلام گوشی میخام بخرم"
+  },
+  {
+    "timestamp": "2026-01-01T13:00:59.367664",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:01:02.235677",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T13:01:02.971933",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:06:41.229414",
+    "event_type": "user_message",
+    "data": "سلام خوبی"
+  },
+  {
+    "timestamp": "2026-01-01T13:06:42.690452",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T13:06:45.692541",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T13:06:46.154135",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:08:04.176213",
+    "event_type": "user_message",
+    "data": "سلام خوبی چخبر"
+  },
+  {
+    "timestamp": "2026-01-01T13:08:05.592010",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T13:08:08.161938",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T13:08:08.422365",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:12:38.056540",
+    "event_type": "user_message",
+    "data": "میخام گوشی بخرم"
+  },
+  {
+    "timestamp": "2026-01-01T13:12:39.707489",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:12:42.859836",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T13:12:43.357554",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:12:46.781172",
+    "event_type": "user_message",
+    "data": "چیا داری"
+  },
+  {
+    "timestamp": "2026-01-01T13:12:47.462617",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:16:55.052967",
+    "event_type": "user_message",
+    "data": "سلام "
+  },
+  {
+    "timestamp": "2026-01-01T13:16:56.419983",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T13:17:00.878711",
+    "event_type": "user_message",
+    "data": "چی داری"
+  },
+  {
+    "timestamp": "2026-01-01T13:17:01.353168",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:23:56.349956",
+    "event_type": "user_message",
+    "data": "سلام"
+  },
+  {
+    "timestamp": "2026-01-01T13:23:58.321019",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T13:24:01.259133",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T13:24:01.971357",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:27:32.587828",
+    "event_type": "user_message",
+    "data": "سلام"
+  },
+  {
+    "timestamp": "2026-01-01T13:27:34.780927",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T13:27:38.769750",
+    "event_type": "user_message",
+    "data": "گوشی"
+  },
+  {
+    "timestamp": "2026-01-01T13:27:39.378673",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:30:55.932861",
+    "event_type": "user_message",
+    "data": "سلام"
+  },
+  {
+    "timestamp": "2026-01-01T13:30:58.009594",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T13:31:03.635455",
+    "event_type": "user_message",
+    "data": "گوشی میخوام"
+  },
+  {
+    "timestamp": "2026-01-01T13:31:04.580580",
+    "event_type": "intent",
+    "data": "search_product"
+  },
+  {
+    "timestamp": "2026-01-01T13:46:44.328644",
+    "event_type": "user_message",
+    "data": "سلام"
+  },
+  {
+    "timestamp": "2026-01-01T13:46:44.847542",
+    "event_type": "intent",
+    "data": "greet"
+  },
+  {
+    "timestamp": "2026-01-01T13:46:49.516651",
+    "event_type": "user_message",
+    "data": "گوشی میخام"
+  },
+  {
+    "timestamp": "2026-01-01T13:46:50.038142",
+    "event_type": "intent",
+    "data": "search_product"
+  }
+]
